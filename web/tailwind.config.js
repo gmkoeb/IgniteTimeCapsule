@@ -12,19 +12,19 @@ module.exports = {
         alt: 'var(--font-baijamjuree)',
       },
       colors: {
-        gray:{
-            50: '#eaeaea',
-            100: '#bebebf',
-            200: '#9e9ea0',
-            300: '#727275',
-            400: '#56565a',
-            500: '#2c2c31',
-            600: '#28282d',
-            700: '#1f1f23',
-            800: '#18181b',
-            900: '#121215',
+        gray: {
+          50: '#eaeaea',
+          100: '#bebebf',
+          200: '#9e9ea0',
+          300: '#727275',
+          400: '#56565a',
+          500: '#2c2c31',
+          600: '#28282d',
+          700: '#1f1f23',
+          800: '#18181b',
+          900: '#121215',
         },
-        purple:{
+        purple: {
           50: '#f3eefc',
           100: '#d8cbf7',
           200: '#c6b2f3',
@@ -36,7 +36,7 @@ module.exports = {
           800: '#48307e',
           900: '#372560',
         },
-        green:{
+        green: {
           50: '#e6fbef',
           100: '#b1f1ce',
           200: '#8cebb6',
@@ -48,19 +48,19 @@ module.exports = {
           800: '#027435',
           900: '#025929',
         },
-        yellow:{
-         50: '#fff9ec',
-         100: '#ffebc4',
-         200: '#ffe2a7',
-         300: '#ffd47f',
-         400: '#ffcc66',
-         500: '#ffbf40',
-         600: '#e8ae3a',
-         700: '#b5882d',
-         800: '#8c6923',
-         900: '#6b501b',
+        yellow: {
+          50: '#fff9ec',
+          100: '#ffebc4',
+          200: '#ffe2a7',
+          300: '#ffd47f',
+          400: '#ffcc66',
+          500: '#ffbf40',
+          600: '#e8ae3a',
+          700: '#b5882d',
+          800: '#8c6923',
+          900: '#6b501b',
         },
-        orange:{
+        orange: {
           50: '#ffefeb',
           100: '#ffccc2',
           200: '#ffb4a4',
@@ -71,18 +71,19 @@ module.exports = {
           700: '#b54129',
           800: '#8c3320',
           900: '#6b2718',
-         },
+        },
       },
-      blur:{
+      blur: {
         full: '194px',
       },
-      backgroundImage:{
-        stripes: 'linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 12.5%, transparent 12.5%, transparent)'
+      backgroundImage: {
+        stripes:
+          'linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 12.5%, transparent 12.5%, transparent)',
       },
-      backgroundSize:{
+      backgroundSize: {
         stripes: '100% 8px',
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 }
